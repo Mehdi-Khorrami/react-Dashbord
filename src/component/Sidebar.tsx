@@ -20,7 +20,7 @@ const Sidebar = () => {
             </Link>
             <Tooltip title="Menu" >
               <Button type='button'>
-                <CloseTwoToneIcon color='black' />
+                <CloseTwoToneIcon />
               </Button>
             </Tooltip>
           </Box>
