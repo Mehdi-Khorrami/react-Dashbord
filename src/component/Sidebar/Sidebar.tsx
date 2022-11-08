@@ -5,7 +5,8 @@ import BlindIcon from '@mui/icons-material/Blind';
 import CloseTwoToneIcon from '@mui/icons-material/CloseTwoTone';
 import { Button, Tooltip } from '@mui/material';
 import GitHubIcon from '@mui/icons-material/GitHub';
-import link from '../data/data'
+import link from '../../data/data'
+import './sidbar.css'
 
 const Sidebar = () => {
   const activeMenu = true
