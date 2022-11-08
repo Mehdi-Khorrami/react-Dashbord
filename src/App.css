@@ -12,13 +12,15 @@
 .wraper-icons > *{
     font-size: 2rem !important;
 }
-.slider{
-    border: 1px solid red;
+.wraper-sidbar{
+    height: 100vh;
     width: 20%;
     background-color: white;
     color:black;
+    overflow: auto;
+    scrollbar-width: 2px !important;
 }
-.slider-hide{
+.wraper-sidbar-hide{
     width: 0%;
 }
 .wraper-navbar{
@@ -26,4 +28,63 @@
     background-color: white;
     color: black;
     width: 100%;
+}
+.Sidbar{
+    min-height: 100vh;
+    overflow: hidden;
+}
+.sidbar-icon{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 5%;
+    margin-top: 5%;
+}
+.sidbar-icon > a{
+    text-decoration: none;
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    font-weight: 700;
+    font-size: 1.2rem;
+    color: black;
+}
+.sidbar-icon > a > span {
+    padding-left: 5%;
+}
+.wraper-title-sidebar{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: flex-start;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 5%;
+}
+.title-sidebar{
+    width: 100%;
+    color : gray;
+    font-weight: 400;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 5%;
+}
+.title-sidebar> p{
+    text-transform: uppercase;
+    width: 100%;
+}
+.title-sidebar> a {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 0.752rem;
+    text-decoration: none;
+    margin: 3%;
+    padding: 1%;
+}
+.title-sidebar> a >span {
+    padding-left: 2%;
 }

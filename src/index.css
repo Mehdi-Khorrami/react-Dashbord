@@ -1,8 +1,15 @@
 body {
+  height: 100vh;
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Roboto";
 }
 
 
+@font-face {
+  font-family: "Roboto";
+  src:local('Roboto'),
+  url("./assets/fonts/Roboto-BoldItalic.ttf") format("truetype");
+  font-weight: bold;
+}
