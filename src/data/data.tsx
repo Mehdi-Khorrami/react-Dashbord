@@ -22,7 +22,7 @@ const link = [
         title : 'Dashbord',
         Link : [
             {
-                name :'ecommerce',
+                name :'Ecommers',
                 icon : <ModeCommentIcon />
             },
         ],
@@ -110,8 +110,6 @@ const link = [
     },
 
 ] 
-
-
 
 
 export default link
