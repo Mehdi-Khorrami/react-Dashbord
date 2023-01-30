@@ -1,0 +1,17 @@
+.Navbar {
+    display: flex ;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+.Avatar {
+    width: 150px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    cursor: pointer;
+}
+.Avatar > img {
+    display: flex;
+     width: 35%;
+}

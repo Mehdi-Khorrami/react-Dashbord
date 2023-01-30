@@ -27,5 +27,5 @@
     position: fixed;
     background-color: white;
     color: black;
-    width: 100%;
+    width: -webkit-fill-available ;
 }
